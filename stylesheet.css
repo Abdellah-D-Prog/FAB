@@ -1,0 +1,136 @@
+/*the CSS For The Index Page */
+/*The Body Background*/
+body
+{
+    background-color: #2e2a2a;
+
+}
+/*The Font for the Website*/
+@font-face
+{
+    font-family: sitefont;
+    src: url(font/squartiqa-4f/OTF/Squartiqa4F.otf);
+}
+html,button
+{
+    font-family: sitefont;
+}
+/*THe Text Colors*/
+/*for small Text*/
+p
+{
+    color:rgb(255, 229, 229);
+}
+/*For Big Strings*/
+h1,h2,h3,h4,h5
+{
+    color:#e17c4f
+}
+/*Website Title Block*/
+#fabtitlediv
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+/*the Div Parent for the product Bloc*/
+#producblock
+{
+    margin-left: 15px;
+    display: flex;
+    
+}
+/*The Product Images*/
+#productdiv {
+    margin: 1em;
+    display: flex;
+  }
+  .col {
+    margin: 10px;
+    flex: 1;
+  }
+  #productimg {
+    line-height: 0;
+    
+  }
+  #productimg img {
+    height: 250px;
+    width: 250px;
+  }
+/*The Description Block*/
+#productinfo
+{
+    border-style: dashed;
+    border-width: 4px;
+    border-color: #e17c4f;
+    margin-inline: 10px;
+}
+/*The More Info Button*/
+#redirect{
+    background-color: #e17c4f;
+    color:beige;
+    font-size: 20px;
+    border-radius:20px;
+    border-width: 10px;
+}
+/*The Review Part*/
+.bloc-review-user
+{
+    text-align: center;
+    
+}
+/*User Icon*/
+.imgreview
+{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+/*The Review Star*/
+.starreview
+{
+    height: 130px;
+    width: 350px;
+}
+/*Coco's Review before and after image*/
+.review02img
+{
+    height: 350px;
+    width: 300px;
+}
+/*Footer*/
+.sponsors-image{
+    width: 170px;
+    height: 100px;
+}
+
+.sponsors-name{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+.sponsors-div
+{
+    text-align: center;
+}
+
+/*The Store Page*/
+/*Travail des photos*/
+#pictures {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+img {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+}
+/*Flex Pour séparer les colonnes*/
+.right_page,.left_page{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+
+}
